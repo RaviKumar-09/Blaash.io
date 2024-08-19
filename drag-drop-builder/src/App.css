@@ -1,0 +1,30 @@
+.builder-container {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  
+}
+
+.droppable-area {
+  border: 2px solid #0f0e0e;
+  padding: 20px;
+  min-height: 300px;
+  width: 50%;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.draggable-item {
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  cursor: grab;
+}
+
+.published-item {
+  padding: 10px;
+  background-color: #e0e0e0;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
